@@ -1,14 +1,16 @@
 /* palette of colors */
 
-.color-primary-0 { color: #D2E0FB }
-.color-primary-1 { color: #F9F3CC }
-.color-primary-2 { color: #D7E5CA}
-.color-primary-3 { color: #8EACCD}
-
-
-/* palette of colors 2 */
-
 .color-primary-0 { color: #AAC8A7 }
 .color-primary-1 { color: #C3EDC0}
 .color-primary-2 { color: #E9FFC2}
 .color-primary-3 { color: #FDFFAE}
+
+
+/* palette of colors 2 */
+
+.color-primary-0 { color: #143959 }
+.color-primary-1 { color: #4B8CA6}
+.color-primary-2 { color: #FDFFAE}
+.color-primary-3 { color: #000000}
+
+
