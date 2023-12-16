@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="fonts-icons.css">
-    <link rel="shortcut icon" href="./images/Icono.ico">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./css/fonts-icons.css">
+    <link rel="shortcut icon" href="./img/Icono.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
@@ -15,42 +18,38 @@
 
 <body>
     <header>
-        <section class="main_title_container">
-            <a href="./index.html"> <img src="./images/logo_ppal.png" alt="Inicio" class="main_logo"></a>
+        <section class="header_container_1">
+            <a href="./index.html"> <img src="./img/logo_ppal.png" alt="Inicio" class="main_logo"></a>
             <h1 class="main_title">JAPE - DEVELOPER</h1>
         </section>
-
-        <section class="menu_icon_container">
-            <div class="menu-icon" id="menu-icon">
-                <span class="icon-menu"></span>
-                <p class="menu_text">MENU</p>
+        <section class="header_container_2">
+            <div class="menu_icon" id="menu_icon">
+                <span class="icon_bar"></span>
+                <span class="icon_bar"></span>
+                <span class="icon_bar"></span>
             </div>
-
-            <div class="back_to_index_container">
-                <a href="index.html" class="back_to_index"><span class="icon-home"></span></a>
-                <a href="contacto.html" class="back_to_index"><span class="icon-address-book"></span></a>
-            </div>
+            <p class="menu_text">MENU</p>
         </section>
-
-        <nav class="menu" id="menu">
-            <a href="index.html" class="option_nav_1"><span class="icon-home"></span>INICIO</a>
-            <a href="sobre_mi.html" class="option_nav_2"><span class="icon-profile"></span>SOBRE MI</a>
-            <a href="portfolio.html" class="option_nav_3"><span class="icon-folder-open"></span>PORTFOLIO</a>
-            <a href="formacion.html" class="option_nav_4"><span class="icon-books"></span>FORMACIÓN</a>
-            <a href="skills.html" class="option_nav_5"><span class="icon-equalizer"></span>SKILLS</a>
-            <a href="contacto.html" class="option_nav_6"><span class="icon-address-book"></span>CONTACTO</a>
+        </section>
+        <nav class="menu_bar" id="menu_bar">
+            <a href="./index.html" class="option_bar_1"><span class="icon-home"></span>INICIO</a>
+            <a href="./sobre_mi.html" class="option_bar_2"><span class="icon-profile"></span>SOBRE MI</a>
+            <a href="./proyectos.html" class="option_bar_3"><span class="icon-folder-open"></span>PROYECTOS</a>
+            <a href="./formacion.html" class="option_bar_4"><span class="icon-books"></span>FORMACIÓN</a>
+            <a href="./skills.html" class="option_bar_5"><span class="icon-equalizer"></span>SKILLS</a>
+            <a href="./contacto.html" class="option_bar_6"><span class="icon-address-book"></span>CONTACTO</a>
         </nav>
     </header>
 
     <section class="main_container">
-        <article class="text_container">
+        <article class="content_a">
             <h1 class="title">¡Hola, me llamo Jesús Perdomo!</h1>
             <p>Soy <strong class="text_important">DESARROLLADOR FRONT-END</strong> Tranee</p>
             <p>¡BIENVENIDOS A MI PORTAFOLIO!</p>
         </article>
 
-        <article class="image_container">
-            <img src="./images/photo_1.jpg" class="photo_1" alt="">
+        <article class="content_b">
+            <img src="./img/photo_1.jpg" class="content_image" alt="">
         </article>
     </section>
 
@@ -59,7 +58,9 @@
         <p class="author"><em>Developed by Jesús Perdomo</em></p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

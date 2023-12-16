@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/fonts-icons.css">
+    <link rel="shortcut icon" href="./img/Icono.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <title>JAPE - Developer</title>
+</head>
+
+<body>
+    <header>
+        <section class="header_container_1">
+            <a href="./index.html"> <img src="./img/logo_ppal.png" alt="Inicio" class="main_logo"></a>
+            <h1 class="main_title">JAPE - DEVELOPER</h1>
+        </section>
+        <section class="header_container_2">
+            <div class="menu_icon" id="menu_icon">
+                <span class="icon_bar"></span>
+                <span class="icon_bar"></span>
+                <span class="icon_bar"></span>
+            </div>
+            <p class="menu_text">MENU</p>
+        </section>
+        <nav class="menu_bar" id="menu_bar">
+            <a href="./index.html" class="option_bar_1"><span class="icon-home"></span>INICIO</a>
+            <a href="./sobre_mi.html" class="option_bar_2"><span class="icon-profile"></span>SOBRE MI</a>
+            <a href="./proyectos.html" class="option_bar_3"><span class="icon-folder-open"></span>PROYECTOS</a>
+            <a href="./formacion.html" class="option_bar_4"><span class="icon-books"></span>FORMACIÓN</a>
+            <a href="./skills.html" class="option_bar_5"><span class="icon-equalizer"></span>SKILLS</a>
+            <a href="./contacto.html" class="option_bar_6"><span class="icon-address-book"></span>CONTACTO</a>
+        </nav>
+    </header>
+
+    <section class="main_container2">
+
+        <article class="content_a2">
+            <h2 class="sub_title">PROYECTOS</h2>
+            <p class="long_text2"> En esta seccion les muestro los trabajos que he realizado desde mi inicio en este
+                mundo tecnologico hasta la actualidad</p>
+
+            <p class="long_text2">Los proyectos los iré actualiando a medida que vaya aprendiendo nuevas cosas</p>
+        </article>
+
+
+        <div class="slider" id="slider">
+            <div class="project">
+                <a href="img/img-proyecto1.png" data-fancybox="" data-caption="Mi Portafolio">
+                    <img src="img/img-proyecto1.png" alt="Proyecto 1" class="project-image">
+                </a>
+                <h3>"Mi portafolio"</h3>
+                <p>Este es mi primer proyecto, se trata de este sitio web en el que te encuentras ahora mismo</p>
+                <p><b>Lenjuajes:</b> HTML5, CSS3, JavaScript</p>
+                <p><b>Librerias:</b> Jquery y JSDelivr </p>
+                <button><a href="https://github.com/Jape05/personal_portfolio.git" target="_blank"> Link para ver codigo</a></button>
+            </div>
+
+            <div class="project">
+                <a href="img/noimage1.jpg" data-fancybox="" data-caption="Proyecto 2">
+                    <img src="img/noimage1.jpg" alt="Proyecto 2" class="project-image">
+                </a>
+                <h3>Proyecto #2</h3>
+                <p>No disponible</p>
+                <p><b>Lenjuajes:</b> none </p>
+                <p><b>Librerias:</b> none </p>
+                <button><a href=""> Link para ver codigo</a></button>
+            </div>
+
+            <div class="project">
+                <a href="img/noimage2.jpg" data-fancybox="" data-caption="Proyecto 3">
+                    <img src="img/noimage2.jpg" alt="Proyecto 3" class="project-image">
+                </a>
+                <h3>Proyecto #3</h3>
+                <p>No disponible</p>
+                <p><b>Lenjuajes:</b> none </p>
+                <p><b>Librerias:</b> none </p>
+                <button><a href=""> Link para ver codigo</a></button>
+            </div>
+
+            <div class="project">
+                <a href="img/noimage3.jpg" data-fancybox="" data-caption="Proyecto 4">
+                    <img src="img/noimage3.jpg" alt="Proyecto 4" class="project-image">
+                </a>
+                <h3>Proyecto #4</h3>
+                <p>No disponible</p>
+                <p><b>Lenjuajes:</b> none </p>
+                <p><b>Librerias:</b> none </p>
+                <button><a href=""> Link para ver codigo</a></button>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <div class="prev" id="prev">Anterior</div>
+            <div class="next" id="next">Siguiente</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="author"><em>Developed by Jesús Perdomo</em></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".slider [data-fancybox='gallery']").fancybox({
+                'loop': true,
+                'autoFocus': false,
+                'clickContent': function (current, event) {
+                    return current.type === 'image' ? 'zoom' : false;
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
