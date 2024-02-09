@@ -28,7 +28,7 @@ p.long_text2 {
     margin: 5px;
 }
 
-.content_a2 h2 {
+.main_container2 h2 {
     display: flex;
     flex-direction: row;
     color: #000000;
@@ -37,7 +37,7 @@ p.long_text2 {
     gap: 4px;
 }
 
-.content_a2 span{
+.main_container2 span {
     font-size: 22px;
 }
 
@@ -46,9 +46,8 @@ p.long_text2 {
 .slider {
     font-size: 13px;
     background-color: #fbc02b41;
-    /* background-color: #5a9c7698; */
     width: 100%;
-    margin: 25px auto;
+    margin: 10px auto;
 }
 
 .project {
@@ -65,8 +64,7 @@ p.long_text2 {
     background-color: #313536;
     border: 2px solid #000000;
     border-radius: 5px;
-    margin-bottom: 12px;
-
+    margin-bottom: 10px;
 }
 
 .project button:hover {
@@ -101,10 +99,10 @@ p.long_text2 {
 
 .slider-nav {
     text-align: center;
-    margin: 5px;
+    margin: 2px;
 }
 
-.proyect_title{
+.proyect_title {
     font-size: 15px;
 }
 
@@ -148,7 +146,6 @@ p.long_text2 {
     text-align: center;
     margin-left: 10px;
 }
-
 
 .slick-dots li button {
     border-radius: 50%;
@@ -206,7 +203,12 @@ p.long_text2 {
         font-size: 18px;
     }
 
-    .slider-nav{
+    .slider-nav {
         display: none;
     }
+
+    .main_container2 {
+        gap: 30px;
+    }
+
 }
