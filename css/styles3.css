@@ -1,0 +1,273 @@
+/* <-------Formacion-------> */
+
+.main_container_formation {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    max-width: 1920px;
+    min-width: 390px;
+}
+
+.main_container_formation h2 {
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    font-size: 22px;
+    align-items: center;
+    gap: 4px;
+}
+
+.main_container_formation span {
+    font-size: 22px;
+}
+
+.main_sub_container_formation {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    max-width: 1920px;
+    min-width: 390px;
+    width: 80%;
+    gap: 50px;
+}
+
+.main_sub_container_formation img {
+    display: flex;
+    height: 80px;
+    width: 110px;
+    justify-items: center;
+
+}
+
+.title_education_and_licenses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid 2px black;
+
+}
+
+.sub_title {
+    color: #000000;
+}
+
+h3 {
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;
+}
+
+ul {
+    margin: 0;
+    list-style-type: disclosure-closed;
+    font-size: 18px;
+}
+
+li {
+    line-height: 30px;
+}
+
+li p {
+    font-size: 16px;
+    line-height: 6px;
+}
+
+li button {
+    color: #FBBF2B;
+    background-color: #313536;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+li button:hover {
+    color: #313536;
+    background-color: #FBBF2B;
+    border: 2px solid #ffffff;
+    transition: transform 0.5ss ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.title_study {
+    color: #313536;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content_licenses {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0;
+    background-color: #4c5f5248;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.content_education {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0;
+    background-color: #4c5f5248;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* -----------------------Media Queries-------------------------- */
+
+@media screen and (max-width: 1279px) {
+    li p {
+        font-size: 16px;
+        line-height: 4px;
+    }
+
+    ul {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 1149px) {
+    li p {
+        font-size: 14px;
+        line-height: 4px;
+    }
+
+    ul {
+        font-size: 14px;
+    }
+
+    .main_sub_container_formation img {
+        height: 60px;
+        width: 90px;
+    }
+
+}
+
+@media screen and (max-width: 1034px) {
+    h3 {
+        font-size: 18px;
+        color: #000000;
+        font-style: italic;
+    }
+
+    li button {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 1019px) {
+    h3 {
+        font-size: 16px;
+        color: #000000;
+        font-style: italic;
+    }
+
+    li p {
+        font-size: 12px;
+        line-height: 4px;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    .main_container_formation span {
+        font-size: 20px;
+    }
+
+    .main_container_formation h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    h3 {
+        font-size: 14px;
+        color: #000000;
+        font-style: italic;
+    }
+
+    li p {
+        font-size: 11px;
+        line-height: 4px;
+    }
+
+    ul {
+        font-size: 11px;
+    }
+
+    .main_container_formation span {
+        font-size: 18px;
+    }
+
+    .main_container_formation h2 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 825px) {
+    li p {
+        font-size: 10.7px;
+        line-height: 4px;
+    }
+
+    ul {
+        font-size: 11px;
+    }
+
+    li button {
+        font-size: 10.7px;
+    }
+
+
+}
+
+@media screen and (max-width: 810px) {
+
+    .main_container_formation{
+        gap: 15px;
+    }
+
+    .main_sub_container_formation {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .content_licenses {
+        width: 90%;
+    }
+    
+    .content_education {
+        width: 90%;
+    }
+
+
+    li p {
+        font-size: 13px;
+        line-height: 4px;
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    li button {
+        font-size: 11px;
+    }
+
+}

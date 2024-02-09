@@ -6,23 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" type="text/css" href="./css/styles2.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles3.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles4.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles5.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles6.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="./css/fonts-icons.css">
-    <link rel="shortcut icon" href="./images/Icono.ico">
+    <link rel="shortcut icon" href="./img/Icono.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <title>JAPE - Developer</title>
 </head>
 
-<body>
+<body class="hidden">
+    <div class="preloader" id="preloader">
+        <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <header>
         <section class="header_container_1">
             <a href="./index.html"> <img src="./img/logo_ppal.png" alt="Inicio" class="main_logo"></a>
             <h1 class="main_title">JAPE - DEVELOPER</h1>
         </section>
-
         <section class="header_container_2">
             <div class="menu_icon" id="menu_icon">
                 <span class="icon_bar"></span>
@@ -31,7 +50,6 @@
             </div>
             <p class="menu_text">MENU</p>
         </section>
-
         <nav class="menu_bar" id="menu_bar">
             <a href="./index.html" class="option_bar_1"><span class="icon-home"></span>INICIO</a>
             <a href="./sobre_mi.html" class="option_bar_2"><span class="icon-profile"></span>SOBRE MI</a>
@@ -41,35 +59,39 @@
             <a href="./contacto.html" class="option_bar_6"><span class="icon-address-book"></span>CONTACTO</a>
         </nav>
     </header>
-
     <section class="main_container">
         <article class="content_a">
-            <h2 class="sub_title">SOBRE MI</h2>
-            <p class="long_text"> Soy profesional en Administración de empresas con amplia experiencia laboral.
-                En mi trayectoria he tenido la dicha de trabajar en diversos rubros empresariales
-                desempeñando variedades de funciones administrativas y adquiriendo conocimientos
-                que me han ayudado a crecer profesional y personalmente.</p>
-
+            <h2 class="sub_title"><span class="icon-profile"></span> SOBRE MI</SOBRE>
+            </h2>
+            <p class="long_text"> Soy profesional en Administración con amplia experiencia laboral.
+                En mi carrera he tenido la oportunidad de trabajar en diversos sectores empresariales
+                donde he adquirido conocimientos que me han ayudado a crecer profesional y personalmente.</p>
+            <p class="long_text">Hace algunos años atrás (2020 - 2021 aprox.) sentí mucha curiosidad
+                por el mundo de la programación, ya que en una de las empresa donde trabajé me ralacioné bastante
+                con el equipo de IT y pude observar de cerca los procesos, funciones y tareas que desempeñaban en
+                esa area y fué donde sentí atracción por este mundo tecnologico.
+            </p>
             <p class="long_text">Actualmente estoy iniciando y formándome en el área de Desarrollo Web,
-                donde he adquirido hasta ahora conocimiento intermedio en los lenguajes:
-
+                donde he adquirido hasta ahora conocimientos intermedios en los lenguajes:</p>
             <p><strong class="text_important">HTML, CSS y JavaScript</strong></p>
-
-            <p class="long_text">Me encuentro trabajando en mi primer proyecto (pagina web) , motivado y esperanzado en
-                aprender mucho en este mundo tecnológico para lograr conseguir mi primera experiencia
-                laboral y así desempeñarme al 100% en esta nueva profesión.</p>
+            <p class="long_text">Sé que la formación en esta area no es fácil, que es un camino muy largo
+                de altos y bajos, pero me siento motivado y esperanzado en aprender mucho para poder desempeñarme
+                al 100% como Desarrollador Full-Stack.</p>
         </article>
-
         <article class="content_b">
             <img src="./img/photo_2.jpg" class="content_image" alt="">
         </article>
     </section>
-
-
     <footer class="footer">
-        <p class="author"><em>Developed by Jesús Perdomo</em></p>
+        <p>COPYRIGHT©2024 ALL RIGHTS RESERVED</p>
+        <div>
+            <a href="mailto:japerdomo08@gmail.com" target="_blank"><span class="icon-mail"></span></a>
+            <a href="https://www.linkedin.com/in/jeperdo/" target="_blank"><span class="icon-linkedin"></span></a>
+            <a href="https://github.com/Jape05" target="_blank"><span class="icon-github"></span></a>
+            <a href="https://twitter.com/Japerdo91" target="_blank"><span class="icon-twitter"></span></a>
+        </div>
+        <p class="author">DEVELOPED BY: JESUS PERDOMO</p>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/script.js"></script>

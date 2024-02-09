@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="stylesheet" type="text/css" href="./css/styles2.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles3.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles4.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles5.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles6.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
@@ -19,7 +23,23 @@
     <title>JAPE - Developer</title>
 </head>
 
-<body>
+<body class="hidden">
+    <div class="preloader" id="preloader">
+        <div class="lds-spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <header>
         <section class="header_container_1">
             <a href="./index.html"> <img src="./img/logo_ppal.png" alt="Inicio" class="main_logo"></a>
@@ -42,60 +62,54 @@
             <a href="./contacto.html" class="option_bar_6"><span class="icon-address-book"></span>CONTACTO</a>
         </nav>
     </header>
-
     <section class="main_container2">
-
         <article class="content_a2">
-            <h2 class="sub_title">PROYECTOS</h2>
-            <p class="long_text2"> En esta seccion les muestro los trabajos que he realizado desde mi inicio en este
-                mundo tecnologico hasta la actualidad</p>
-
-            <p class="long_text2">Los proyectos los iré actualiando a medida que vaya aprendiendo nuevas cosas</p>
+            <h2 class="sub_title"><span class="icon-folder-open"></span>PROYECTOS</h2>
+            <p class="long_text2"> En esta sección comparto los proyectos y trabajos que he
+                desarrollado desde mis inicios hasta la actualidad.</p>
+            <p class="long_text2">La galeria se actualizará a medida que vaya culminando cada
+                proyecto o trabajo nuevo.</p>
         </article>
-
-
         <div class="slider" id="slider">
             <div class="project">
                 <a href="img/img-proyecto1.png" data-fancybox="" data-caption="Mi Portafolio">
                     <img src="img/img-proyecto1.png" alt="Proyecto 1" class="project-image">
                 </a>
-                <h3>"Mi portafolio"</h3>
-                <p>Este es mi primer proyecto, se trata de este sitio web en el que te encuentras ahora mismo</p>
-                <p><b>Lenjuajes:</b> HTML5, CSS3, JavaScript</p>
-                <p><b>Librerias:</b> Jquery y JSDelivr </p>
-                <button><a href="https://github.com/Jape05/personal_portfolio.git" target="_blank"> Link para ver codigo</a></button>
+                <h3 class="proyect_title">"Mi portafolio"</h3>
+                <p>Este es mi primer proyecto oficial, se trata del sitio web donde te encuentras ahora mismo.</p>
+                <p><b>Languages:</b> HTML5, CSS3, JavaScript</p>
+                <p><b>Library / Frameworks:</b> Jquery y JSDelivr </p>
+                <button><a href="https://github.com/Jape05/personal_portfolio.git" target="_blank"> Link para ver
+                        codigo</a></button>
             </div>
-
             <div class="project">
                 <a href="img/noimage1.jpg" data-fancybox="" data-caption="Proyecto 2">
-                    <img src="img/noimage1.jpg" alt="Proyecto 2" class="project-image">
+                    <img src="img/noimage3.jpg" alt="Proyecto 2" class="project-image">
                 </a>
-                <h3>Proyecto #2</h3>
-                <p>No disponible</p>
-                <p><b>Lenjuajes:</b> none </p>
-                <p><b>Librerias:</b> none </p>
+                <h3 class="proyect_title">Proyecto #2</h3>
+                <p>Not available</p>
+                <p><b>Languages:</b> None </p>
+                <p><b>Library / Frameworks:</b> None </p>
                 <button><a href=""> Link para ver codigo</a></button>
             </div>
-
             <div class="project">
                 <a href="img/noimage2.jpg" data-fancybox="" data-caption="Proyecto 3">
-                    <img src="img/noimage2.jpg" alt="Proyecto 3" class="project-image">
+                    <img src="img/noimage3.jpg" alt="Proyecto 3" class="project-image">
                 </a>
-                <h3>Proyecto #3</h3>
-                <p>No disponible</p>
-                <p><b>Lenjuajes:</b> none </p>
-                <p><b>Librerias:</b> none </p>
+                <h3 class="proyect_title">Proyecto #3</h3>
+                <p>Not available</p>
+                <p><b>Languages:</b> None </p>
+                <p><b>Library / Frameworks:</b> None </p>
                 <button><a href=""> Link para ver codigo</a></button>
             </div>
-
             <div class="project">
                 <a href="img/noimage3.jpg" data-fancybox="" data-caption="Proyecto 4">
                     <img src="img/noimage3.jpg" alt="Proyecto 4" class="project-image">
                 </a>
-                <h3>Proyecto #4</h3>
-                <p>No disponible</p>
-                <p><b>Lenjuajes:</b> none </p>
-                <p><b>Librerias:</b> none </p>
+                <h3 class="proyect_title">Proyecto #4</h3>
+                <p>Not available</p>
+                <p><b>Languages:</b> None </p>
+                <p><b>Library / Frameworks:</b> None </p>
                 <button><a href=""> Link para ver codigo</a></button>
             </div>
         </div>
@@ -104,11 +118,16 @@
             <div class="next" id="next">Siguiente</div>
         </div>
     </section>
-
     <footer class="footer">
-        <p class="author"><em>Developed by Jesús Perdomo</em></p>
+        <p>COPYRIGHT©2024 ALL RIGHTS RESERVED</p>
+        <div>
+            <a href="mailto:japerdomo08@gmail.com" target="_blank"><span class="icon-mail"></span></a>
+            <a href="https://www.linkedin.com/in/jeperdo/" target="_blank"><span class="icon-linkedin"></span></a>
+            <a href="https://github.com/Jape05" target="_blank"><span class="icon-github"></span></a>
+            <a href="https://twitter.com/Japerdo91" target="_blank"><span class="icon-twitter"></span></a>
+        </div>
+        <p class="author">DEVELOPED BY: JESUS PERDOMO</p>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/script.js"></script>

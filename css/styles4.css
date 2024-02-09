@@ -1,0 +1,254 @@
+/* <------- SKILLS -------> */
+.main_container_skills {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    max-width: 1920px;
+    min-width: 390px;
+}
+
+.main_sub_container_skills {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    gap: 30px;
+
+}
+
+.main_container_skills h2 {
+    display: flex;
+    flex-direction: row;
+    color: #000000;
+    font-size: 22px;
+    align-items: center;
+    gap: 4px;
+}
+
+.main_container_skills span {
+    font-size: 22px;
+}
+
+.main_sub_container_skills h2 {
+    font-size: 20px;
+    font-style: italic;
+    margin-right: 10px;
+}
+
+.content_habilidades {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.content_conocimientos {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.separator_skills {
+    width: 100%;
+    border: solid 1px black;
+}
+
+.background_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    width: 120px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background:
+        linear-gradient(90deg, var(--secund_color) 25%, var(--first_color) 100%, var(--secund_color) 25%);
+    background-repeat: repeat;
+    animation: gradient 50s linear infinite;
+}
+
+.card_skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 10px;
+    width: 110px;
+    gap: 8px;
+    border: solid 2px #5A9C76;
+    background-color: #4C5F52;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.card_skills img {
+    margin: 0;
+    width: 70px;
+    height: 75px;
+}
+
+.card_skills p {
+    margin: 0;
+    font-size: 13px;
+    color: white;
+}
+
+
+/* -----------------------Media Queries-------------------------- */
+
+@media screen and (max-width: 1120px) {
+    .background_card {
+        width: 110px;
+    }
+
+    .card_skills {
+        width: 100px;
+    }
+
+    .card_skills img {
+        width: 60px;
+        height: 65px;
+    }
+
+    .card_skills p {
+        font-size: 12px;
+    }
+
+    .main_sub_container_skills h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+    .background_card {
+        width: 100px;
+    }
+
+    .card_skills {
+        width: 90px;
+    }
+
+    .card_skills img {
+        width: 50px;
+        height: 55px;
+    }
+
+    .card_skills p {
+        font-size: 11px;
+    }
+
+    .main_sub_container_skills h2 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 980px) {
+    .background_card {
+        width: 90px;
+    }
+
+    .card_skills {
+        width: 80px;
+    }
+
+    .card_skills img {
+        width: 40px;
+        height: 45px;
+    }
+
+    .card_skills p {
+        font-size: 10px;
+    }
+
+    .main_sub_container_skills h2 {
+        font-size: 18px;
+    }
+
+    .main_container_skills h2 {
+        font-size: 20px;
+    }
+
+    .main_container_skills span {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 910px) {
+    .background_card {
+        width: 85px;
+    }
+
+    .card_skills {
+        width: 75px;
+    }
+
+    .card_skills img {
+        width: 40px;
+        height: 45px;
+    }
+
+    .card_skills p {
+        font-size: 10px;
+    }
+
+    .main_sub_container_skills h2 {
+        font-size: 16px;
+    }
+
+    .main_container_skills h2 {
+        font-size: 18px;
+    }
+
+    .main_container_skills span {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 821px){
+    .main_sub_container_skills h2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 810px) {
+
+    .content_habilidades {
+        width: 55%;
+
+    }
+
+    .content_conocimientos {
+        width: 55%;
+        margin-top: 20px;
+    }
+
+    .background_card {
+        width: 70px;
+    }
+
+    .card_skills {
+        width: 60px;
+    }
+
+    .card_skills img {
+        width: 55px;
+        height: 50px;
+    }
+
+
+}

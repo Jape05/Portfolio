@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?hr08wp');
-  src:  url('fonts/icomoon.eot?hr08wp#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?hr08wp') format('truetype'),
-    url('fonts/icomoon.woff?hr08wp') format('woff'),
-    url('fonts/icomoon.svg?hr08wp#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?82w8a2');
+  src:  url('fonts/icomoon.eot?82w8a2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?82w8a2') format('truetype'),
+    url('fonts/icomoon.woff?82w8a2') format('woff'),
+    url('fonts/icomoon.svg?82w8a2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,7 +20,7 @@
   text-transform: none;
   line-height: 1;
   font-size: 16px;
-
+  
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -42,12 +42,33 @@
 .icon-address-book:before {
   content: "\e944";
 }
+.icon-user-tie:before {
+  content: "\e976";
+}
 .icon-equalizer:before {
   content: "\e992";
 }
 .icon-equalizer2:before {
   content: "\e993";
 }
+.icon-clipboard:before {
+  content: "\e9b8";
+}
 .icon-menu:before {
   content: "\e9bd";
+}
+.icon-mail:before {
+  content: "\ea83";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
 }
