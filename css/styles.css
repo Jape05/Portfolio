@@ -760,7 +760,7 @@ footer a:hover{
     .menu_icon {
         display: flex;
         flex-direction: column;
-        margin-left: 12px;
+        margin-left: 8px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -768,8 +768,8 @@ footer a:hover{
     }
 
     .icon_bar {
-        width: 16px;
-        height: 2px;
+        width: 24px;
+        height: 2.6px;
         background-color: white;
         margin: 1.5px 0;
     }
@@ -777,7 +777,7 @@ footer a:hover{
 
     .menu_text {
         display: flex;
-        font-size: 12px;
+        font-size: 14px;
         color: rgb(255, 255, 255);
     }
 
@@ -794,7 +794,7 @@ footer a:hover{
     }
 
     footer div {
-        gap: 0px;
+        gap: 10px;
     }
 
     footer div a span.icon-mail {
@@ -802,19 +802,19 @@ footer a:hover{
     }
 
     footer div a span.icon-linkedin {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 0px;
         margin-right: 0px;
     }
 
     footer div a span.icon-twitter {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 0px;
         margin-right: 0px;
     }
 
     footer div a span.icon-github {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -829,7 +829,7 @@ footer a:hover{
     }
 
     .footer p {
-        font-size: 8px;
+        font-size: 10px;
         ;
     }
 
