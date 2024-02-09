@@ -206,4 +206,8 @@ p.long_text2 {
     .content_a2 h2 {
         font-size: 18px;
     }
+
+    .slider-nav{
+        display: none;
+    }
 }

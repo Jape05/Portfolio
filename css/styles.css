@@ -12,7 +12,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
     font-family: 'Rubik', sans-serif;
     font-size: 14px;
     width: 100%;
@@ -31,6 +31,7 @@ body {
     justify-content: space-evenly;
     max-width: 1920px;
     min-width: 390px;
+    min-height: calc(100vh - (50px + 40px));
 }
 
 .header_container_1 {
@@ -170,7 +171,7 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 55%;
 }
 
 .content_a h1 {
@@ -226,6 +227,7 @@ p.long_text {
     max-width: 1920px;
     min-width: 390px;
     margin-top: auto;
+
 }
 
 .footer p {
@@ -278,7 +280,19 @@ footer a:hover{
 
 /* -----------------------Media Queries-------------------------- */
 
-@media screen and (max-width: 1262px) {
+@media screen and (max-width: 1315px){
+    .text_important {
+        font-size: 20px;
+     
+    }
+
+    .content_a {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 1264px) {
 
     .main_title {
         font-size: 22px;
@@ -329,7 +343,7 @@ footer a:hover{
     }
 
     .text_important {
-        font-size: 26px;
+        font-size: 20px;
     }
 
     p.long_text {
@@ -806,13 +820,19 @@ footer a:hover{
 @media screen and (max-width: 600px) {
 
     .footer {
-        gap: 10px;
+        justify-content:space-around;
+        gap: 0px;
     }
 
     .footer p {
         font-size: 8px;
         ;
     }
+
+    footer .author{
+        display: none;
+    }
+
 
 
 }
